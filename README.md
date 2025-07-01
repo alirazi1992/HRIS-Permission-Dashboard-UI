@@ -15,7 +15,7 @@ A modern Human Resources Information System (HRIS) dashboard UI built from **Rea
 ## 🔧 Tech Stack
 - [React] (https://reactjs.org/)
 - [TypeScript] (https://www.typescriptlang.org/)
-- [Tailwind CSS] (https:tailwindcss.com/)
+- [Tailwind CSS] (https:// tailwindcss.com/)
 - [Vite] (https://vitejs.dev/)
 - [React Icons] (https://react-icons.github.io/react-icons)
 
@@ -112,7 +112,7 @@ hris-permission-ui/
 Coming Soon after full UI components and functionality. 
 
 ## 🧠 Author 
-Ali Razi - LinkedIn: 
+Ali Razi - LinkedIn: linkdin.com/in/alirazi1992
 
 ## 🏗️ Status 
 
