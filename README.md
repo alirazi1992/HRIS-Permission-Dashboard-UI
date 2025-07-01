@@ -104,7 +104,7 @@ npm run dev
 Coming Soon after full UI components and functionality.
 ---
 ## 🧠 Author
-Ali Razi - LinkedIn: linkdin.com/in/alirazi1992
+Ali Razi - LinkedIn: linkedin.com/in/alirazi1992
 ---
 ## 🏗️ Status
 
