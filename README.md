@@ -1,68 +1,54 @@
-# HRIS-Permission-Dashboard-UI
+HRIS-Permission-Dashboard-UI
+A modern Human Resources Information System (HRIS) dashboard UI built from React, TypeScript, Vitee and Tailwind CSS.
 
-A modern Human Resources Information System (HRIS) dashboard UI built from **React**, **TypeScript**, **Vitee** and **Tailwind CSS**. 
+✨ Features
+📂 Molecular fi;e structer (components, layouts, pages)
+📑 Siderbar navigation with icons
+🧭 Dashboard layout wrapper
+👥 User Groups tabbed interface
+📋 Responsive and styled user table
+💅 Built with utility-first Tailwind CSS
+🔧 Tech Stack
+[React] (https://reactjs.org/)
 
-## ✨ Features 
+[TypeScript] (https://www.typescriptlang.org/)
 
-- 📂 Molecular fi;e structer (components, layouts, pages)
-- 📑 Siderbar navigation with icons
-- 🧭 Dashboard layout wrapper
-- 👥 User Groups tabbed interface
-- 📋 Responsive and styled user table
-- 💅 Built with utility-first Tailwind CSS
----
+[Tailwind CSS] (https:// tailwindcss.com/)
 
-## 🔧 Tech Stack
-- [React] (https://reactjs.org/)
-- [TypeScript] (https://www.typescriptlang.org/)
-- [Tailwind CSS] (https:// tailwindcss.com/)
-- [Vite] (https://vitejs.dev/)
-- [React Icons] (https://react-icons.github.io/react-icons)
+[Vite] (https://vitejs.dev/)
 
-  ----
+[React Icons] (https://react-icons.github.io/react-icons)
 
-## ✅ Project Folder Structer 
-
-hris-permission-ui/
-│
+✅ Project Folder Structer
+hris-permission-ui/ │
 
 ├── public/
 
-│   └── vite.svg                    # Vite default asset (optional)
-│
-├── src/
+│ └── vite.svg # Vite default asset (optional) │ ├── src/
 
-│   ├── assets/                     # Images, logos, icons (optional)
+│ ├── assets/ # Images, logos, icons (optional)
 
-│   │   └── logo.svg
+│ │ └── logo.svg
 
-│
-│   ├── components/                 # Reusable UI components
+│ │ ├── components/ # Reusable UI components
 
-│   │   ├── Sidebar.tsx
+│ │ ├── Sidebar.tsx
 
-│   │   └── Topbar.tsx             # (Add later)
-│
-│   ├── layouts/                    # Layout wrappers
+│ │ └── Topbar.tsx # (Add later) │ │ ├── layouts/ # Layout wrappers
 
-│   │   └── DashboardLayout.tsx
-│
-│   ├── pages/                      # Route-level views
+│ │ └── DashboardLayout.tsx │ │ ├── pages/ # Route-level views
 
-│   │   └── UserGroups.tsx
-│
-│   ├── App.tsx                     # Main app wrapper
+│ │ └── UserGroups.tsx │ │ ├── App.tsx # Main app wrapper
 
-│   ├── App.css                     # Global base styles
+│ ├── App.css # Global base styles
 
-│   ├── index.css                   # Tailwind directives
+│ ├── index.css # Tailwind directives
 
-│   └── main.tsx                    # Entry point
+│ └── main.tsx # Entry point
 
-│
-├── .gitignore
+│ ├── .gitignore
 
-├── index.html                      # Vite entry
+├── index.html # Vite entry
 
 ├── package.json
 
@@ -74,52 +60,34 @@ hris-permission-ui/
 
 └── README.md
 
-## 🧠 Notes:
+🧠 Notes:
+components/ -> for resuable building blocks like Sidebar, Tabs, UserRow, Button, etc.
+layouts/ -> holds full-pageb wrappers(e.g., DashboardLayout wraps sidebar +content)
+pages/ -> top level screen logic, one file per route/view
+assests/ -> any custo,e icons, images, SVGS( these are optional for now)
+🚀 Getting Started
+Clone the repo:
 
-  - `components/` -> for resuable building blocks like `Sidebar`, `Tabs`, `UserRow`, `Button`, etc.
-  - `layouts/` -> holds full-pageb wrappers(e.g., `DashboardLayout` wraps sidebar +content)
-  - `pages/` -> top level screen logic, one file per route/view
-  - `assests/` -> any custo,e icons, images, SVGS( these are optional for now)
-----
+git clone https://github.com/alirazi1992/hris-permission-ui.git
+cd hris-permisssion-ui
+Install dependencies:
 
-  ## 🚀 Getting Started
+npm install
+Start development server;
 
-  1. Clone the repo:
-     ```bash
-     git clone https://github.com/alirazi1992/hris-permission-ui.git
-     cd hris-permisssion-ui
-     ```
+npm run dev
+✅ Next Steps?
+Add a Topbar.tsx
 
-  2. Install dependencies:
-     ```bash
-     npm install
-     ```
-  3. Start development server;
-     ```bash
-     npm run dev
-     ```
+Exract table rows to a UserRow component
 
-## ✅ Next Steps? 
+Add routing with react-router-dom for multiple pages
 
-  - Add a `Topbar.tsx`
-  - Exract table rows to a `UserRow` component
-  - Add routing with `react-router-dom` for multiple pages
+📸 Screenshots
+Coming Soon after full UI components and functionality.
 
-    ------
-
-## 📸 Screenshots 
-
-Coming Soon after full UI components and functionality. 
-
-## 🧠 Author 
+🧠 Author
 Ali Razi - LinkedIn: linkdin.com/in/alirazi1992
 
-## 🏗️ Status 
-
-✅ UI foundation ready 
-🚧 More features coming soon: filters, invite model, table logic, backend integration 
-
-
-     
-
-     
+🏗️ Status
+✅ UI foundation ready 🚧 More features coming soon: filters, invite model, table logic, backend integration
