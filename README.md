@@ -74,25 +74,13 @@ hris-permission-ui/
 
 └── README.md
 
-🧠 د 
-## 🧠 دخفث
+## 🧠 Notes:
 
-
-## 🧠 دخفثس 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - `components/` -> for resuable building blocks like `Sidebar`, `Tabs`, `UserRow`, `Button`, etc.
+  - `layouts/` -> holds full-pageb wrappers(e.g., `DashboardLayout` wraps sidebar +content)
+  - `pages/` -> top level screen logic, one file per route/view
+  - `assests/` -> any custo,e icons, images, SVGS( these are optional for now)
+----
 
   ## 🚀 Getting Started
 
@@ -110,6 +98,14 @@ hris-permission-ui/
      ```bash
      npm run dev
      ```
+
+## ✅ Next Steps? 
+
+  - Add a `Topbar.tsx`
+  - Exract table rows to a `UserRow` component
+  - Add routing with `react-router-dom` for multiple pages
+
+    ------
 
 ## 📸 Screenshots 
 
