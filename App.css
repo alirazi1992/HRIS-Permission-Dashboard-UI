@@ -1,0 +1,17 @@
+* {
+    margine:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    front-family: 'Inter', sans-serif;
+    -webkit-front-smoothing: antialiased;
+    background-color:#f9afb;
+}
+
+.text-ellipsis{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
