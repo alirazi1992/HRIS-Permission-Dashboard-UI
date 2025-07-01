@@ -1,25 +1,32 @@
-HRIS-Permission-Dashboard-UI
+# HRIS-Permission-Dashboard-UI
 A modern Human Resources Information System (HRIS) dashboard UI built from React, TypeScript, Vitee and Tailwind CSS.
 
-✨ Features
-📂 Molecular fi;e structer (components, layouts, pages)
-📑 Siderbar navigation with icons
-🧭 Dashboard layout wrapper
-👥 User Groups tabbed interface
-📋 Responsive and styled user table
-💅 Built with utility-first Tailwind CSS
-🔧 Tech Stack
-[React] (https://reactjs.org/)
+## ✨ Features
+- 📂 Molecular fi;e structer (components, layouts, pages)
+- 📑 Siderbar navigation with icons
+- 🧭 Dashboard layout wrapper
+- 👥 User Groups tabbed interface
+- 📋 Responsive and styled user table
+- 💅 Built with utility-first Tailwind CSS
 
-[TypeScript] (https://www.typescriptlang.org/)
+  ----
 
-[Tailwind CSS] (https:// tailwindcss.com/)
+## 🔧 Tech Stack
 
-[Vite] (https://vitejs.dev/)
+- [React] (https://reactjs.org/)
 
-[React Icons] (https://react-icons.github.io/react-icons)
+- [TypeScript] (https://www.typescriptlang.org/)
 
-✅ Project Folder Structer
+- [Tailwind CSS] (https://tailwindcss.com/)
+
+- [Vite] (https://vitejs.dev/)
+
+- [React Icons] (https://react-icons.github.io/react-icons).
+
+  ----
+
+## ✅ Project Folder Structer
+
 hris-permission-ui/ │
 
 ├── public/
@@ -60,34 +67,46 @@ hris-permission-ui/ │
 
 └── README.md
 
-🧠 Notes:
-components/ -> for resuable building blocks like Sidebar, Tabs, UserRow, Button, etc.
-layouts/ -> holds full-pageb wrappers(e.g., DashboardLayout wraps sidebar +content)
-pages/ -> top level screen logic, one file per route/view
-assests/ -> any custo,e icons, images, SVGS( these are optional for now)
-🚀 Getting Started
+
+## 🧠 Notes:
+
+  - components/ -> for resuable building blocks like Sidebar, Tabs, UserRow, Button, etc.
+  - layouts/ -> holds full-pageb wrappers(e.g., DashboardLayout wraps sidebar +content)
+  - pages/ -> top level screen logic, one file per route/view
+  - assests/ -> any custo,e icons, images, SVGS( these are optional for now)
+---
+## 🚀 Getting Started
+
 Clone the repo:
 
-git clone https://github.com/alirazi1992/hris-permission-ui.git
+1. git clone https://github.com/alirazi1992/hris-permission-ui.git
+```bash
 cd hris-permisssion-ui
-Install dependencies:
-
+```
+2. Install dependencies:
+```bash
 npm install
-Start development server;
-
+```
+3. Start development server:
+```bash
 npm run dev
-✅ Next Steps?
-Add a Topbar.tsx
+```
+---
+## ✅ Next Steps?
+  
+  - Add a `Topbar.tsx`
 
-Exract table rows to a UserRow component
+  - Exract table rows to a `UserRow` component
 
-Add routing with react-router-dom for multiple pages
-
-📸 Screenshots
+  - Add routing with `react-router-dom` for multiple pages
+---
+## 📸 Screenshots
 Coming Soon after full UI components and functionality.
-
-🧠 Author
+---
+## 🧠 Author
 Ali Razi - LinkedIn: linkdin.com/in/alirazi1992
+---
+## 🏗️ Status
 
-🏗️ Status
-✅ UI foundation ready 🚧 More features coming soon: filters, invite model, table logic, backend integration
+✅ UI foundation ready 
+🚧 More features coming soon: filters, invite model, table logic, backend integration
